@@ -6,10 +6,24 @@ public class Employee {
 
 		System.out.println("mahesh");
 	}
+
+	public void vignesh() {
+
+		System.out.println("vignesh");
+	}
+	
+	
+
 	public void sample() {
 String s1 ="mahesh";
 String s2="this is mahesh";
 // to find the length of the string
+//vignesh worked
+  
+
+
+
+
 int len = s1.length();
 System.out.println(len);
 char charAt = s1.charAt(2);
@@ -82,6 +96,7 @@ System.out.println(su);
 		Employee s = new Employee();
 		s.sample();
 		s.mahesh();
+		s.vignesh();
 		
 	}
 }
