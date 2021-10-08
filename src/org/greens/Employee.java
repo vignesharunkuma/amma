@@ -1,6 +1,11 @@
 package org.greens;
 
 public class Employee {
+	
+	public void mahesh() {
+
+		System.out.println("mahesh");
+	}
 	public void sample() {
 String s1 ="mahesh";
 String s2="this is mahesh";
@@ -76,6 +81,7 @@ System.out.println(su);
 	public static void main(String[] args) {
 		Employee s = new Employee();
 		s.sample();
+		s.mahesh();
 		
 	}
 }
